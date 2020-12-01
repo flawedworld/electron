@@ -192,6 +192,9 @@ function stringifySnapshots (snapshots: any, pretty = false) {
     if (key === 'returnValue') {
       return 'placeholder-guest-contents-id';
     }
+    if (key === 'processId') {
+      return '[number]';
+    }
     return value;
   }, pretty ? 2 : undefined);
 }

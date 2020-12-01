@@ -3,6 +3,7 @@
     "top=5,left=10,resizable=no",
     {
       "sender": "[WebContents]",
+      "processId": "[number]",
       "frameId": 1
     },
     "about:blank",
@@ -37,6 +38,7 @@
     "zoomFactor=2,resizable=0,x=0,y=10",
     {
       "sender": "[WebContents]",
+      "processId": "[number]",
       "frameId": 1
     },
     "about:blank",
@@ -70,6 +72,7 @@
     "backgroundColor=gray,webPreferences=0,x=100,y=100",
     {
       "sender": "[WebContents]",
+      "processId": "[number]",
       "frameId": 1
     },
     "about:blank",
@@ -103,6 +106,7 @@
     "x=50,y=20,title=sup",
     {
       "sender": "[WebContents]",
+      "processId": "[number]",
       "frameId": 1
     },
     "about:blank",
@@ -134,6 +138,7 @@
     "show=false,top=1,left=1",
     {
       "sender": "[WebContents]",
+      "processId": "[number]",
       "frameId": 1
     },
     "about:blank",
