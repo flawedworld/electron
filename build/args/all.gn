@@ -19,4 +19,4 @@ enable_basic_printing = true
 angle_enable_vulkan_validation_layers = false
 dawn_enable_vulkan_validation_layers = false
 
-is_cfi = false
+is_cfi = true
